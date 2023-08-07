@@ -489,7 +489,7 @@ const listSkill = [
       {
         header:
           "The team leader of a group of volunteer students at UNETI University in Vietnam",
-        time: "Role:  Leader  (09/2019 - 10/2021)",
+        time: "Role:  Leader  (Sep 2019 - Oct 2021)",
         content: {
           description:
             "Engaging in volunteer activities, contributing to the community alongside many other young students, thereby enhancing teamwork, communication, and presentation skills.",
