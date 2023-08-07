@@ -6,29 +6,62 @@ import { BsGithub, BsArrowUpRightSquare } from "react-icons/bs"
 
 const projects = [
   {
-    name: "Thankful Thoughts",
+    name: "HealthCareHospital",
     description:
-      "ThankfulThoughts is a web app that generates an appreciative sentence of something or someone you are thankful for.",
-    image: "/thankfulthoughts.png",
-    github: "https://github.com/hqasmei/thankful-thoughts",
-    link: "https://thankfulthoughts.io/",
+      "HealthCareHospital is a web application that enables patients to easily schedule medical appointments with doctors.",
+    image: "/Project1.png",
+    github: "https://github.com/TranHuyHoang2001/FE_HealthCareHospital",
+    link: "https://healthcarehospital.onrender.com",
   },
   {
-    name: "PlatoIO",
-    description: "PlatoIO is a to do list app that built using the PERN stack.",
-    image: "/platoio.png",
-    github: "https://github.com/hqasmei/platoio",
-    link: "https://platoio.com/register",
+    name: "VietNamNews",
+    description:
+      "VietNamNews is a web application that provides news on various fields and topics in Vietnam.",
+    image: "/Project2.png",
+    github: "https://github.com/TranHuyHoang2001/VietNamNews",
+    link: "https://vietnamnewsbyphp.000webhostapp.com/",
   },
   {
-    name: "Kator Family Photos",
+    name: "Classify types of flowers",
     description:
-      "Kator Family Photos is a photos and video digitization service in the LA area.",
-    image: "/familyphotos.png",
-    github: "https://github.com/hqasmei/katorfamilyphotos",
-    link: "https://katorfamilyphotos.com/",
+      "The AI model is built using the CNN architecture to classify 5 types of flowers: rose, tulip, white daisy, lotus, and sunflower.",
+    image: "/Project3.png",
+    github:
+      "https://gist.github.com/TranHuyHoang2001/accee86bf53ae0acfa134ce682f1ed74",
+    link: "https://tranhuyhoang2001.github.io/PhanLoaiAnhHoa/",
   },
-]
+  {
+    name: "Manage items",
+    description:
+      "Use java swing to build app manage items about electronic CRUD, search items and print, export bill.",
+    image: "/Project4.png",
+    github: "https://github.com/TranHuyHoang2001/Pet_Project_Shop_Electronic",
+    link: "https://github.com/TranHuyHoang2001/Pet_Project_Shop_Electronic",
+  },
+  {
+    name: "Terris Game",
+    description: "Use WPF C# to build app game terris.",
+    image: "/Project5.png",
+    github: "https://github.com/TranHuyHoang2001/GameXepHinh",
+    link: "https://github.com/TranHuyHoang2001/GameXepHinh",
+  },
+  {
+    name: "Build CI/CD Pipeline",
+    description:
+      "Created CI/CD Pipeline using Jenkins and GitOps (ArgoCD) to dockerize code, and deploy the container into a Kubernetes cluster.",
+    image: "/Project6.png",
+    github: "https://github.com/TranHuyHoang2001/kubernetescode",
+    link: "https://github.com/TranHuyHoang2001/kubernetescode",
+  },
+  {
+    name: "Convert Video To MP3",
+    description:
+      "System Design: Hands on approach to learning about microservice architectures/distributed systems.",
+    image: "/Project7.png",
+    github: "https://github.com/TranHuyHoang2001/video2Mp3",
+    link: "https://github.com/TranHuyHoang2001/video2Mp3",
+  },
+];
 
 const ProjectsSection = () => {
   return (

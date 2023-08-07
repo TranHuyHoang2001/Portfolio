@@ -7,6 +7,10 @@ import { useTheme } from "next-themes"
 import { RiMoonFill, RiSunLine } from "react-icons/ri"
 import { IoMdMenu, IoMdClose } from "react-icons/io"
 
+
+import LinkURL from "next/link";
+import { ROUTE_LIST } from "./routes";
+
 interface NavItem {
   label: string
   page: string
@@ -32,6 +36,7 @@ export default function Navbar() {
   const currentTheme = theme === "system" ? systemTheme : theme
   const pathname = usePathname()
   const [navbar, setNavbar] = useState(false)
+
   return (
     <header className="w-full mx-auto  px-4 sm:px-20 fixed top-0 z-50 shadow bg-white dark:bg-stone-900 dark:border-b dark:border-stone-600">
       <div className="justify-between md:items-center md:flex">
@@ -79,6 +84,13 @@ export default function Navbar() {
                   </Link>
                 )
               })}
+
+              {ROUTE_LIST.map((route) => (
+                <LinkURL key={route.path} href={route.path} passHref>
+                    {route.label}
+                </LinkURL>
+              ))}
+
               {currentTheme === "dark" ? (
                 <button
                   onClick={() => setTheme("light")}

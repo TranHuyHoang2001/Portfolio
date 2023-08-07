@@ -19,6 +19,9 @@ const skills = [
   { skill: "Docker" },
   { skill: "AWS" },
   { skill: "Azure" },
+  { skill: "Linux (Ubuntu)" },
+  { skill: "Google Colab" },
+  { skill: "Jupyter Notebook" },
 ]
 
 const AboutSection = () => {
@@ -45,7 +48,7 @@ const AboutSection = () => {
             </p>
             <br />
             <p>
-              I graduated from University of Economics and Industries, VietNam in 2023
+              I graduated from University of Economics - Technology for Industries, VietNam in 2023
               with degree of engineer in Information Technology.
             </p>
             <br />
