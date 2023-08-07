@@ -127,7 +127,12 @@ const MyCv = (props: IMyCvProps) => {
                   Full Stack Developer
                 </Typography>
               </Box>
-              <Box pt={4}>
+              <Box
+                pt={4}
+                style={{
+                  wordWrap: "break-word",
+                }}
+              >
                 <ListCVMain listCV={listSkill} />
               </Box>
             </Box>
