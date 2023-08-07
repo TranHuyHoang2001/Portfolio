@@ -239,11 +239,11 @@ const listBar = [
       },
       {
         header: "Linkedin:",
-        content: `https://www.linkedin.com/in/tran-hoang-a77763279/`,
+        content: `https://www.linkedin.com/in/tran-hoang-a77763279`,
       },
       {
         header: "Website:",
-        content: `???`,
+        content: `https://tranhuyhoang.vercel.app`,
       },
     ],
   },
