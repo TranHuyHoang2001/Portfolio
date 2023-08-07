@@ -274,7 +274,7 @@ const listSkill = [
     contents: [
       {
         header: "University of Economics - Technology for Industries",
-        time: "(09/2019 - 07/2023)",
+        time: "(Sep 2019 - Jul 2023)",
         content: {
           list: ["Major: Information Technology", "GPA: 3.47/4.0"],
         },
@@ -293,7 +293,7 @@ const listSkill = [
     contents: [
       {
         header: "Convert Video To MP3",
-        time: "08/2023 - Present",
+        time: "Aug 2023 - Present",
         content: {
           description:
             "System Design: Hands on approach to learning about microservice architectures/distributed systems.",
@@ -305,7 +305,7 @@ const listSkill = [
       },
       {
         header: "Build CI/CD Pipline",
-        time: "08/2023 - Present",
+        time: "Aug 2023 - Present",
         content: {
           description:
             "Created CI/CD Pipeline using Jenkins and GitOps (ArgoCD) to dockerize code, and deploy the container into a Kubernetes cluster. I set up a Jenkins server on GCP (Google Cloud Platform) VM instances.",
@@ -317,7 +317,7 @@ const listSkill = [
       },
       {
         header: "HealthCareHospital",
-        time: "02/2023 - 07/2023",
+        time: "Feb 2023 - Jul 2023",
         content: {
           description:
             "HealthCareHospital is project about hospital. it show about specialties, clinics, doctors, handbooks and help patient can book appoinment.",
@@ -335,7 +335,7 @@ const listSkill = [
       },
       {
         header: "HealthCareHospital Server",
-        time: "02/2023 - 07/2023",
+        time: "Feb 2023 - Jul 2023",
         content: {
           description: "",
           list: [
@@ -350,7 +350,7 @@ const listSkill = [
       },
       {
         header: "HealthCareHospital ChatBot",
-        time: "02/2023 - 07/2023",
+        time: "Feb 2023 - Jul 2023",
         content: {
           description: "",
           list: [
@@ -364,7 +364,7 @@ const listSkill = [
       },
       {
         header: "Classify types of flowers",
-        time: "04/2023 – 06/2023",
+        time: "Apr 2023 - Jun 2023",
         content: {
           description:
             "I worked on a final project about an AI model based on Convolutional Neural Network (CNN) architecture.",
@@ -383,7 +383,7 @@ const listSkill = [
       },
       {
         header: "VietNamNews",
-        time: "04/2023 – 05/2023",
+        time: "Apr 2023 - May 2023",
         content: {
           description: "",
           list: [
@@ -400,7 +400,7 @@ const listSkill = [
       },
       {
         header: "Terris Game clone",
-        time: "09/2022 – 11/2022",
+        time: "Sep 2022 - Nov 2022",
         content: {
           description:
             "I worked a term-end project in the subject of C# using WPF to build a game app.",
@@ -413,7 +413,7 @@ const listSkill = [
       },
       {
         header: "Shop app",
-        time: "07/2022 – 09/2022",
+        time: "Jul 2022 - Sep 2022",
         content: {
           description:
             "I worked a term-end project in the subject of Java to build a shopp app.",
