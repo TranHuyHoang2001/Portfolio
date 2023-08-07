@@ -244,7 +244,7 @@ const listBar = [
       },
       {
         header: "Linkedin:",
-        content: `https://www.linkedin.com/in/tran-hoang-a77763279`,
+        content: `https://www.linkedin.com/in/tranhuyhoang01`,
       },
       {
         header: "Website:",
