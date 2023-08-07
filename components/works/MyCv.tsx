@@ -273,18 +273,17 @@ const listSkill = [
     header: "Education",
     contents: [
       {
-        header:
-          "University of Economics - Technology for Industries (09/2019 – 06/2023)",
-        time: "Major: Information Technology ",
+        header: "University of Economics - Technology for Industries",
+        time: "(09/2019 - 07/2023)",
         content: {
-          list: [],
+          list: ["Major: Information Technology", "GPA: 3.47/4.0"],
         },
       },
       {
         header: "Self taught: ",
-        time: "Coursera, Udemy, YouTube",
+        time: "",
         content: {
-          list: [],
+          list: ["Coursera, Udemy, YouTube"],
         },
       },
     ],
